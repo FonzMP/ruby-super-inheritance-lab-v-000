@@ -1,6 +1,6 @@
 class Student
 
-  attr_reader :hello
+  attr_accessor :hello
 
   def hello
     "Hey there! I'm so excited to learn stuff.\n"
