@@ -2,6 +2,8 @@ require "./lib/student.rb"
 
 class ChattyStudent
 
+  attr_reader :hello
+
   def hello
     super
     "How are you doing today? I'm okay
